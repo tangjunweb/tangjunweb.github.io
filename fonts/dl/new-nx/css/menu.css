@@ -1,0 +1,56 @@
+.tree-menu li {
+  width: 240px;
+  background: #e6e6e6;
+  list-style: none;
+}
+.tree-menu .parent-node a {
+  text-decoration: none;
+  height: 40px;
+  display: block;
+  line-height: 40px;
+  padding-left: 43px;
+  position: relative;
+}
+.tree-menu .parent-node a.down-node:before {
+  transition: all 0.3s;
+  content: '';
+  position: absolute;
+  left: 16px;
+  top: 37%;
+  width: 6px;
+  height: 10px;
+  background: url(../../images/up.png);
+  background-size: 6px 10px;
+}
+.tree-menu .parent-node .child-node {
+  display: none;
+}
+.tree-menu .parent-node.active .child-node a.active {
+  color: #DA251D;
+}
+.tree-menu .parent-node.active .child-node a:hover {
+  color: #DA251D;
+}
+.tree-menu .parent-node.active a:before {
+  transform: rotate(90deg);
+}
+.fy_box {
+  text-align: center;
+}
+.fy_box .active {
+  background: #EE2930;
+  color: #fff;
+}
+.fy_box a {
+  padding: 8px 14px;
+  background: #F5F3F1;
+  font-size: 14px;
+  color: #000000;
+  display: inline-block;
+  text-decoration: none;
+}
+.footer {
+  width: 100%;
+  height: 190px;
+  background: #f7f9fa;
+}

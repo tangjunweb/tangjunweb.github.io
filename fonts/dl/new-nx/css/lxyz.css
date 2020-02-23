@@ -1,0 +1,188 @@
+.allmian {
+  background: #FAFAFA;
+}
+.allmian ul li {
+  list-style: none;
+}
+.allmian .logo-banner {
+  width: 100%;
+  height: 426px;
+  background: url('../bwcx-img/logo1-banner.png') left top no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+.allmian .logo-banner p {
+  font-size: 64px;
+  font-family: FZCuHeiSongS-B-GB;
+  font-weight: 400;
+  color: #e73025;
+  background: linear-gradient(0deg, #bc0008 0%, #ff1c10 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  padding-top: 150px;
+  width: 100%;
+  text-align: center;
+}
+.allmian .tips-t {
+  position: relative;
+}
+.allmian .tips-t img {
+  width: 100%;
+}
+.allmian .tips-t span {
+  font-size: 16px;
+  color: #be2321;
+  position: absolute;
+  right: -7px;
+  bottom: 6px;
+  height: 34px;
+  line-height: 34px;
+  width: 66px;
+  text-align: center;
+  cursor: pointer;
+}
+.allmian .section2 .container {
+  padding: 38px 0px 0px 0px;
+}
+.allmian .section2 .container .section2-1 img {
+  width: 100%;
+  display: block;
+}
+.allmian .section2-2 ul {
+  padding: 15px 0px 0px 0px;
+}
+.allmian .section2-2 ul li {
+  position: relative;
+  padding-left: 20px;
+}
+.allmian .section2-2 ul li a {
+  font-size: 18px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  line-height: 43px;
+  color: #333333;
+  position: relative;
+  width: 90%;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.allmian .section2-2 ul li:before {
+  position: absolute;
+  content: '';
+  width: 5px;
+  height: 5px;
+  background: #b0b0b0;
+  border-radius: 50%;
+  top: 40%;
+  left: 0;
+}
+.allmian .section2-1 img {
+  padding: 15px 0px 0px 0px;
+}
+.allmian .section5-1 ul li {
+  border-bottom: 1px dashed #EBEBEB;
+}
+.allmian .section5-1 ul li span {
+  font-size: 14px;
+  color: #aaaaaa;
+  position: absolute;
+  right: 0;
+  line-height: 54px;
+}
+.allmian .section3 .container {
+  padding: 50px 0px 0px 0px;
+}
+.allmian .section3 .st-top {
+  margin-top: 32px;
+}
+.allmian .section3 .st-top span {
+  font-size: 22px;
+  font-weight: bold;
+  color: #e21213;
+  position: relative;
+  padding-left: 14px;
+}
+.allmian .section3 .st-top span:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 6px;
+  height: 20px;
+  background: #e21213;
+}
+.allmian .section3 .st-top div {
+  width: 90%;
+  height: 2px;
+  display: inline-block;
+  background: #ebebeb;
+  margin-bottom: 7px;
+}
+.allmian .section3 .section3-1 ul {
+  padding: 25px 0px 15px 0px;
+}
+.allmian .section3 .section3-1 ul li {
+  width: 25%;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.allmian .section3 .section3-1 ul li a {
+  display: block;
+  text-align: center;
+}
+.allmian .section3 .section3-1 ul li a .img-box {
+  width: 70%;
+  height: 228px;
+  background: rgba(102, 102, 102, 0.1);
+  border: 1px solid #e6e6e6;
+  margin: 0 auto;
+}
+.allmian .section3 .section3-1 ul li a .img-box img {
+  width: 183px;
+  height: 211px;
+  margin-top: 7px;
+}
+.allmian .section3 .section3-1 ul li a .name {
+  font-size: 16px;
+  font-weight: 400;
+  color: #191919;
+  margin-top: 10px;
+}
+.allmian .section3 .section3-1 ul li a .wx {
+  font-size: 14px;
+  font-weight: 400;
+  color: #666666;
+}
+.allmian .section4 .container {
+  padding: 0px 0px 40px 0px;
+}
+.allmian .container {
+  background: #ffffff;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+.allmian .footer {
+  background: #F9F9FB;
+  width: 100%;
+  height: 196px;
+  position: relative;
+}
+.allmian .footer div {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.allmian .footer div p {
+  font-size: 18px;
+  color: #333333;
+  text-align: center;
+  margin: 0;
+}
+.allmian .footer div p:first-child {
+  margin-bottom: 15px;
+}

@@ -1,0 +1,69 @@
+//左侧导航
+.tree-menu {
+    li {
+        width: 240px; // height: 40px;
+        background: rgba(230, 230, 230, 1);
+        list-style: none;
+    }
+    .parent-node {
+        a {
+            text-decoration: none; // width: 240px;
+            height: 40px;
+            display: block; // text-align: center;
+            line-height: 40px;
+            padding-left: 43px;
+            position: relative;
+        }
+        a.down-node:before {
+            transition: all .3s;
+            content: '';
+            position: absolute;
+            left: 16px;
+            top: 37%;
+            width: 6px;
+            height: 10px;
+            background: url(../../images/up.png);
+            background-size: 6px 10px;
+        }
+        .child-node {
+            display: none; // padding-left: 43px;
+        }
+        &.active {
+            .child-node {
+                a.active {
+                    color: #DA251D;
+                }
+                a:hover {
+                    color: #DA251D;
+                }
+            }
+            a:before {
+                transform: rotate(90deg)
+            }
+        }
+    }
+}
+
+//分页样式
+.fy_box {
+    text-align: center;
+    .active {
+        background: #EE2930;
+        color: #fff;
+    }
+    a {
+        padding: 8px 14px;
+        background: #F5F3F1;
+        font-size: 14px;
+        color: #000000;
+        display: inline-block;
+        text-decoration: none;
+    }
+}
+
+//底部页脚
+.footer {
+    width: 100%;
+    height: 190px;
+    background: rgba(247, 249, 250, 1);
+}

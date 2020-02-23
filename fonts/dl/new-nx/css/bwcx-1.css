@@ -1,0 +1,324 @@
+.allmian ul li {
+  list-style: none;
+}
+.allmian .navbar {
+  position: absolute;
+  bottom: 34px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border: 0;
+}
+.allmian .navbar ul li a {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.allmian .navbar ul li a:hover {
+  background-color: transparent;
+}
+.allmian .logo-banner {
+  width: 100%;
+  height: 650px;
+  background: url('../bwcx-img/logo-banner.png') left top no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+.allmian .list-banner {
+  width: 100%;
+  height: 400px;
+  background: url('../bwcx-img/list-banner.png') left top no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+.allmian .list-banner .navbar {
+  bottom: 0px;
+}
+.allmian .tips-t {
+  position: relative;
+}
+.allmian .tips-t img {
+  width: 100%;
+}
+.allmian .tips-t span {
+  font-size: 16px;
+  color: #be2321;
+  position: absolute;
+  right: -9px;
+  bottom: 0;
+  height: 34px;
+  line-height: 34px;
+  width: 66px;
+  text-align: center;
+  cursor: pointer;
+}
+.allmian .section1 {
+  background: url('../bwcx-img/jujiao.png') left top no-repeat;
+  background-size: 100% 100%;
+  padding: 40px 0px 50px 0px;
+}
+.allmian .section1 .container .top {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.allmian .section1 .container .top img {
+  clear: left;
+}
+.allmian .section1 .container .top span {
+  font-size: 40px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  color: #c61d20;
+  line-height: 72px;
+  clear: left;
+  text-align: center;
+}
+.allmian .section1 .container .section1-1 img {
+  width: 100%;
+}
+.allmian .section1 .container .section1-1 ul li {
+  position: relative;
+  padding-left: 20px;
+  font-size: 20px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  color: #333333;
+  line-height: 48px;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.allmian .section1 .container .section1-1 ul li:before {
+  position: absolute;
+  content: '';
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  top: 40%;
+  left: 0;
+  border: 1px solid #c61d20;
+}
+.allmian .section1 .container .section1-1 ul li.active {
+  color: #C61D20;
+}
+.allmian .section1 .container .section1-1 ul li.active:before {
+  background: #c61d20;
+}
+.allmian .section1 .container .section1-2 .videobox {
+  width: 100%;
+}
+.allmian .section2 {
+  background: url('../bwcx-img/bodybg.png') left top no-repeat;
+  background-size: 100% 100%;
+  padding: 50px 0px;
+}
+.allmian .section2 .container .section2-1 {
+  position: relative;
+}
+.allmian .section2 .container .section2-1 .left-img img {
+  width: 100%;
+}
+.allmian .section2 .container .section2-1 .videoTitle {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin-top: 10px;
+  font-size: 18px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #ffffff;
+  padding-left: 21px;
+  width: 85%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  z-index: 33;
+}
+.allmian .section2 .container .section2-1 .swiper-pagination-bullets {
+  text-align: right !important;
+  bottom: 0 !important;
+  padding-right: 17px !important;
+  height: 40px;
+  line-height: 40px;
+  background: rgba(0, 0, 0, 0.5);
+}
+.allmian .section2 .container .section2-1 .swiper-pagination-bullet {
+  background: #B6B6B6;
+}
+.allmian .section2 .container .section2-1 .swiper-pagination-bullet-active {
+  background: #ffffff !important;
+}
+.allmian .section2-2 img {
+  width: 100%;
+}
+.allmian .section2-2 ul {
+  padding: 15px 0px 0px 0px;
+}
+.allmian .section2-2 ul li {
+  position: relative;
+  padding-left: 20px;
+}
+.allmian .section2-2 ul li a {
+  font-size: 18px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  line-height: 43px;
+  color: #333333;
+  position: relative;
+  width: 90%;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.allmian .section2-2 ul li:before {
+  position: absolute;
+  content: '';
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  top: 32%;
+  left: 0;
+  border: 1px solid #c61d20;
+}
+.allmian .section2-2 ul li.active a {
+  color: #C61D20;
+}
+.allmian .section2-2 ul li.active:before {
+  background: #c61d20;
+}
+.allmian .section5-1 ul li {
+  border-bottom: 1px dashed #EBEBEB;
+}
+.allmian .section5-1 ul li span {
+  font-size: 14px;
+  color: #aaaaaa;
+  position: absolute;
+  right: 0;
+  line-height: 54px;
+}
+.allmian .section3 {
+  padding: 50px 0px;
+}
+.allmian .section3 .section3-1 ul {
+  padding: 25px 0px 15px 0px;
+}
+.allmian .section3 .section3-1 ul li {
+  width: 49%;
+  display: inline-block;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+.allmian .section3 .section3-1 ul li .container {
+  width: 100%;
+}
+.allmian .section3 .section3-1 ul li .container .col-lg-8 p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.allmian .section3 .section3-1 ul li .container .col-lg-8 div {
+  font-size: 14px;
+  color: #818181;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+.allmian .section3 .section3-1 ul li img {
+  width: 100%;
+}
+.allmian .section4 {
+  padding: 0px 0px 173px 0px;
+  background: url('../bwcx-img/section4-bg.png') left top no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+.allmian .section5 {
+  padding: 50px 0px;
+}
+.allmian .section6 {
+  padding: 50px 0px;
+}
+.allmian .section6 .boxshadow {
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.allmian .section6 .boxshadow h2 {
+  font-size: 28px;
+  color: #333333;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  line-height: 48px;
+}
+.allmian .section6 .boxshadow p {
+  text-align: center;
+  font-size: 14px;
+  color: #666666;
+  line-height: 88px;
+}
+.allmian .section6 .boxshadow .img-ba {
+  width: 640px;
+  height: 400px;
+  margin: 0 auto;
+}
+.allmian .section6 .boxshadow .img-ba img {
+  display: block;
+  width: 100%;
+}
+.allmian .section6 .boxshadow .detail {
+  font-size: 16px;
+  color: #333333;
+  line-height: 36px;
+  margin: 40px 80px 80px 80px;
+}
+.allmian .footer {
+  background: url('../bwcx-img/footer-bg.png') left top no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 160px;
+  position: relative;
+}
+.allmian .footer div {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.allmian .footer div p {
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+}
+.allmian .footer div p:first-child {
+  margin-bottom: 15px;
+}
+.allmian .footer-1 {
+  width: 100%;
+  height: 80px;
+  position: relative;
+  border-top: 1px solid #F2F0ED;
+}
+.allmian .footer-1 div {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.allmian .footer-1 div p {
+  font-size: 12px;
+  color: #333333;
+  text-align: center;
+  margin: 0;
+}
+.allmian .footer-1 div p:first-child {
+  margin-bottom: 5px;
+}
